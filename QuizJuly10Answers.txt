@@ -3,7 +3,7 @@ Team Name: Don't worry about it
 
 1.The error is caused by an inconsistancy in return type.  Void is in the signiture but return statement gives an int.
 
-2. Nothing is displayed since the b.concat(a); does not compile.  b= String.Concat(b,a) would work.  
+2. Nothing is displayed since the b.concat(a); does not compile because of improper overloads.  b= String.Concat(b,a) would work.  
 
 3.
 
@@ -27,7 +27,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Quiz_7_10_William_O_Sullivan_Problem_4
+namespace Quiz_7_10_Jeremy_King_Problem_4
 {
     class Program
     {
